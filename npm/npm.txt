@@ -1,0 +1,25 @@
+npm (Node Package Manager) is the default package manager for the JavaScript runtime environment Node.js
+
+
+
+• npm init – Creates a new package.json file to start a project.
+• npm install <package-name> – Downloads and adds a package to your project.
+• npm uninstall <package-name> – Removes an installed package.
+• npm run <script-name> – Runs a custom script defined in your project.
+
+
+npm init -y = say okay to every think
+
+What Is Semantic Versioning?
+npm follows a system called Semantic Versioning (SemVer), where version numbers are divided into three parts separated by dots:
+
+"major.minor.patch"
+
+Using the react example ("react": "^17.0.2"):
+
+MAJOR version when you make incompatible API changes
+MINOR version when you add functionality in a backward compatible manner
+PATCH version when you make backward compatible bug fixes
+
+
+Each part has a specific purpose in describing how the package has changed.
