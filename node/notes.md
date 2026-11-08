@@ -72,7 +72,7 @@ Bindings allow JavaScript to access operating-system and native capabilities.
 The following diagram shows the relationship between the main components:
 
 ```mermaid
-flowchart TB
+flowchart TB 
     A["JavaScript Application"] --> B["Node.js Runtime"]
 
     B --> C["V8 JavaScript Engine"]
